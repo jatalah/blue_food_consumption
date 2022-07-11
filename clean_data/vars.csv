@@ -1,0 +1,71 @@
+name,definicion,ambos,total,acuicultura,Taxa,Phylum,TL,type,Origin,catTL
+ALMEJAS,Almejas en conserva,0,0,1,Veneridae,Mollusca,2.0171428571428573,Preserves,Farmed,Low
+ALMEJAS CONGELADO,Almejas congeladas,1,0,1,Veneridae,Mollusca,2.0171428571428573,Frozen,Farmed,Low
+"ALMEJAS,BERB.FRESC",Almejas y berberechos frescos y congelados,2,0,1,Veneridae,Mollusca,2.0171428571428573,Fresh,Farmed,Low
+"ALMEJAS,BERBERECHO",Almejas y berberechos frescos y congelados,2,0,1,Veneridae,Mollusca,2.0171428571428573,Fresh,Farmed,Low
+ATUN,Atún y bonito en conserva,0,0,0,Thunnus,Chordata,4.1728571455819266,Preserves,Wild,High
+ATUN Y BONITO,Atún y bonito fresco y congelado,2,0,0,Scombridae,Chordata,4.176874999602636,Fresh,Wild,High
+BACALAO,Bacalao y bacaladilla fresca y congelada,2,0,0,Gadus,Chordata,4.227500016689301,Fresh,Wild,High
+BACALAO CONGELADO,Bacalao y bacaladilla congelada,1,0,0,Gadus,Chordata,4.227500016689301,Frozen,Wild,High
+BACALAO FRESCO,Bacalao y bacaladilla fresca,1,0,0,Gadus,Chordata,4.227500016689301,Fresh,Wild,High
+BERBEREC.CONGELADO,Berberechos congelados,1,0,0,Cerastoderma,Mollusca,2,Frozen,Wild,Low
+BERBERECHOS,Berberechos en conserva,0,0,0,Cerastoderma,Mollusca,2,Preserves,Wild,Low
+CABALLA FRESCA,Caballa fresca,1,0,0,Scomber,Chordata,3.784999980926514,Fresh,Wild,Medium
+CALAMAR Y PULPO FR,"Calamares/pulpo fresco. Incluye también pota, chipirones, sepia …",1,0,0,Loligo,Mollusca,4.306666666666667,Fresh,Wild,High
+CALAMARES,Calamares en conserva,0,0,0,Loligo,Mollusca,4.306666666666667,Preserves,Wild,High
+CALAMARES CONGELAD,"Calamares congelados, incluye también pota, chipirones, sepia…",1,0,0,Loligo,Mollusca,4.306666666666667,Frozen,Wild,High
+"CALAMARES,PULPO","Calamares/pulpo fresco y congelado. Incluye también pota, chipirones, sepia …",2,0,0,Loligo,Mollusca,4.306666666666667,Fresh,Wild,High
+CHICHARRO/CABALLA,Chicharro y caballa en conserva,0,0,0,Trachurus picturatus,Chordata,3.32,Preserves,Wild,Medium
+CONS.PESCADO/MOLUSCO,"Incluye conservas de pescados, mariscos y moluscos preparadas, patés, ahumadas o salazones envasadas",0,0,0,NA,NA,3.472390507085592,Preserves,Wild,Medium
+GAMBAS/LANG.COCIDO,Gambas/langostinos cocidos,0,0,0,Penaeidae,Arthropoda,3.2064285714285714,Preserves,Wild,Medium
+GAMBAS/LANG.CONG.,Gambas/langostinos congelados,1,0,0,Penaeidae,Arthropoda,3.2064285714285714,Frozen,Wild,Medium
+GAMBAS/LANG.FRESCO,Gambas/langostinos frescos,1,0,0,Penaeidae,Arthropoda,3.2064285714285714,Fresh,Wild,Medium
+GAMBAS/LANGOSTINOS,"Engloba gambas y langostinos frescos, congelados y cocidos",2,0,0,Penaeidae,Arthropoda,3.2064285714285714,Fresh,Wild,Medium
+LENGUADO,Lenguado y gallo fresco y congelado,2,0,0,Soleidae,Chordata,3.459718748509884,Fresh,Wild,Medium
+LENGUADO CONGELADO,Lenguado y gallo congelado,1,0,0,Soleidae,Chordata,3.459718748509884,Frozen,Wild,Medium
+LENGUADO FRESCO,Lenguado y gallo fresco,1,0,0,Soleidae,Chordata,3.459718748509884,Fresh,Wild,Medium
+MARISCO/MOLUSC COCI,Mariscos/moluscos/crustáceos cocidos,0,0,0,NA,NA,2.954889880952381,Preserves,Wild,Low
+MARISCO/MOLUSC CONG,Mariscos/moluscos/crustáceos congelados,1,0,0,NA,NA,2.954889880952381,Frozen,Wild,Low
+MARISCO/MOLUSC FRES,Mariscos/moluscos/crustáceos frescos,1,0,0,NA,NA,2.954889880952381,Fresh,Wild,Low
+MARISCO/MOLUSCO/CRUS,"Agrupa los mariscos, moluscos y crustáceos que se compran frescos, congelados o cocidos",2,0,0,NA,NA,NA,Fresh,Wild,NA
+MEJILLON,Mejillones frescos y congelados,2,0,1,Mytilus galloprovincialis,Mollusca,2.69,Fresh,Farmed,Low
+MEJILLON CONGELADO,Mejillones congelados,1,0,1,Mytilus galloprovincialis,Mollusca,2.69,Frozen,Farmed,Low
+MEJILLON FRESCO,Mejillones frescos,1,0,1,Mytilus galloprovincialis,Mollusca,2.69,Fresh,Farmed,Low
+MEJILLONES,Mejillones en conserva,0,0,1,Mytilus galloprovincialis,Mollusca,2.69,Preserves,Farmed,Low
+MERLUZA/PESCAD,Merluza y Pescadilla fresca y congelada,2,0,0,Merluccius,Chordata,4.220909092643044,Fresh,Wild,High
+MERLUZA/PESCAD.CON,Merluza y Pescadilla congelada,1,0,0,Merluccius,Chordata,4.220909092643044,Frozen,Wild,High
+MERLUZA/PESCAD.FRE,Merluza y Pescadilla fresca,1,0,0,Merluccius,Chordata,4.220909092643044,Fresh,Wild,High
+OTRAS CONS.PESCADO,Otras conservas de pescados y mariscos no desglosadas anteriormente,0,0,0,NA,NA,NA,Preserves,Wild,NA
+OTROS MARISC.COCI.,Incluye los mariscos/moluscos no desglosados anteriormente cocidos,0,0,0,NA,NA,2.954889880952381,Preserves,Wild,Low
+OTROS MARISC.CONG.,Incluye los mariscos/moluscos no desglosados anteriormente congelados,1,0,0,NA,NA,2.954889880952381,Frozen,Wild,Low
+OTROS MARISC.FRES.,Incluye los mariscos/moluscos no desglosados anteriormente frescos,1,0,0,NA,NA,2.954889880952381,Fresh,Wild,Low
+OTROS MARISC/MOLUSC,"Incluye los mariscos/moluscos no desglosados anteriormente, tanto frescos, congelados como cocidos. Comprende: nécoras, centollos, cigalas, cangrejos, caracoles, ostras, navajas, etc",2,0,0,NA,NA,2.954889880952381,Fresh,Wild,Low
+OTROS PESCADOS,"Incluye otros pescados de mar o río tanto frescos como congelados (tilapia, panga, pez espada, emperador, tiburón, besugo, etc)",2,0,0,NA,NA,3.9491666650772097,Fresh,Wild,Medium
+OTROS PESCADOS CON,"Incluye otros pescados de mar o río congelados (tilapia, panga, pez espada, emperador, tiburón, besugo, etc)",2,0,0,NA,NA,3.9491666650772097,Fresh,Wild,Medium
+OTROS PESCADOS FRE,"Incluye otros pescados de mar o río frescos (tilapia, panga, pez espada, emperador, tiburón, besugo, etc)",1,0,0,NA,NA,3.9491666650772097,Fresh,Wild,Medium
+PESCADOS,Incluye pescados frescos y congelados,2,0,0,NA,NA,NA,Fresh,Wild,NA
+PESCADOS CONGELADOS,Incluye pescados congelados,1,1,0,NA,NA,NA,Frozen,Wild,NA
+PESCADOS FRESCOS,Incluye pescados frescos,1,1,0,NA,NA,NA,Fresh,Wild,NA
+PULPO,Pulpo en conserva,0,0,0,Octopus,Mollusca,3.6115,Preserves,Wild,Medium
+PULPO CONGELADO,Pulpo congelado,1,0,0,Octopus,Mollusca,3.6115,Frozen,Wild,Medium
+SALMON,Salmón fresco y congelado. No incluye salmón ahumado y similares,2,0,1,Salmo salar,Chordata,3.86,Fresh,Farmed,Medium
+SALMON CONGELADO,Salmón congelado,1,0,1,Salmo salar,Chordata,3.86,Frozen,Farmed,Medium
+SALMON FRESCO,Salmón fresco,1,0,1,Salmo salar,Chordata,3.86,Fresh,Farmed,Medium
+SARDINA/BOQUERON,"Incluye Sardina, Boquerón y Anchoas frescas y congeladas",2,0,0,Sardina pilchardus,Chordata,2.94,Fresh,Wild,Low
+SARDINAS,Sardinas en conserva,0,0,0,Sardina pilchardus,Chordata,2.94,Preserves,Wild,Low
+TOTAL CARNE,"Engloba la carne fresca, congelada y transformada",2,1,0,NA,NA,NA,Fresh,Wild,NA
+TOTAL PESCA,"Engloba pescados, mariscos/moluscos y conservas de pescado, tanto a granel como envasados, ya sean frescos, congelados o cocidos",2,1,0,Oncorhynchus mykiss,Chordata,3.53,Fresh,Wild,Medium
+TRUCHA FRESCA,Trucha fresca,1,0,1,Oncorhynchus mykiss,Chordata,3.53,Fresh,Farmed,Medium
+ANCHOAS,Anchoas en conserva,0,0,0,Engraulis encrasicolus,Chordata,3.12,Preserves,Wild,Medium
+DORADA,Dorada fresca y congelada,2,0,1,Sparus aurata,Chordata,3.39,Fresh,Farmed,Medium
+LUBINA,Lubina fresca y congelada,2,0,1,Dicentrarchus labrax,Chordata,3.47,Fresh,Farmed,Medium
+OTROS AHUMADOS,Otros pescados y mariscos ahumados,0,0,0,NA,NA,3.472390507085592,Preserves,Wild,Medium
+RODABALLO,Rodaballo fresco y congelado,2,0,0,Scophthalmus maximus,Chordata,3.9600000381469727,Fresh,Wild,Medium
+SALMON AHUMADO,Salmón ahumado,0,0,1,Salmo salar,Chordata,3.86,Preserves,Farmed,Medium
+TRUCHA AHUMADA,Trucha ahumada,0,0,1,Oncorhynchus mykiss,Chordata,3.53,Preserves,Farmed,Medium
+RAPE,Rape fresco y congelado,2,0,0,Lophius,Chordata,4.395,Fresh,Wild,High
+PESCADO SALADO,"Incluye las salazones de pescado que se compran en la sección de frescos (bacalao, arenque, mojama, etc)",1,0,0,NA,NA,4.054615388283363,Fresh,Wild,High
+BOQUERONES FRESCOS,Boquerones y anchoas frescas,1,0,0,Engraulis encrasicolus,Chordata,3.12,Fresh,Wild,Medium
+SARDINAS FRESCAS,Sardinas frescas,1,0,0,Sardina pilchardus,Chordata,2.94,Fresh,Wild,Low
+BACALADILLA,Bacaladilla,1,0,0,Micromesistius poutassou,Chordata,3.94,Fresh,Wild,Medium
+PEZ ESPADA/EMPERADOR,Pez espada o emperador,1,0,0,Xiphias gladius,Chordata,4.5,Fresh,Wild,High

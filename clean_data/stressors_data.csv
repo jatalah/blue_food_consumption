@@ -1,0 +1,40 @@
+median,.lower,.upper,full_taxa_name,stressor,name,source,en_name,en_name_gen,type
+1.39912623,0.33547461019999997,3.0545771559999997,bivalves,ghg,MEJILLON CONGELADO,Farmed,Frozen mussel,Mussel,Frozen
+1.39912623,0.33547461019999997,3.0545771559999997,bivalves,ghg,MEJILLON FRESCO,Farmed,Fresh mussel,Mussel,Fresh
+1.39912623,0.33547461019999997,3.0545771559999997,bivalves,ghg,MEJILLON CONSERVA,Farmed,Preseved mussel,Mussel,Preserved
+7.329096646006401,5.9489187198976,8.8569826193632,salmon,ghg,SALMON CONGELADO,Farmed,Frozen salmon,Salmon,Frozen
+7.329096646006401,5.9489187198976,8.8569826193632,salmon,ghg,SALMON FRESCO,Farmed,Fresh salmon,Salmon,Fresh
+7.329096646006401,5.9489187198976,8.8569826193632,salmon,ghg,SALMON AHUMADO,Farmed,Smoked salmon,Salmon,Preserved
+5.4095471779999995,4.203365090999999,6.654879511,trout,ghg,TRUCHA FRESCA,Farmed,Fresh trout,Trout,Fresh
+5.4095471779999995,4.203365090999999,6.654879511,trout,ghg,TRUCHA AHUMADA,Farmed,Smoked trout,Trout,Preserved
+11.595178579999999,9.526711801,13.98554834,misc marine,ghg,DORADA,Farmed,Seabream,Seabream,Fresh
+11.595178579999999,9.526711801,13.98554834,misc marine,ghg,LUBINA,Farmed,Seabass,Seabass,Fresh
+11.595178579999999,9.526711801,13.98554834,misc marine,ghg,RODABALLO,Farmed,Turbot,Turbot,Fresh
+-0.1298268507,-0.1930719581,-0.06739909797999999,bivalves,nitrogen,MEJILLON CONGELADO,Farmed,Frozen mussel,Mussel,Frozen
+-0.1298268507,-0.1930719581,-0.06739909797999999,bivalves,nitrogen,MEJILLON FRESCO,Farmed,Fresh mussel,Mussel,Fresh
+-0.1298268507,-0.1930719581,-0.06739909797999999,bivalves,nitrogen,MEJILLON CONSERVA,Farmed,Preseved mussel,Mussel,Preserved
+0.1105565086,0.08475869272,0.1369220292,salmon,nitrogen,SALMON CONGELADO,Farmed,Frozen salmon,Salmon,Frozen
+0.1105565086,0.08475869272,0.1369220292,salmon,nitrogen,SALMON FRESCO,Farmed,Fresh salmon,Salmon,Fresh
+0.1105565086,0.08475869272,0.1369220292,salmon,nitrogen,SALMON AHUMADO,Farmed,Smoked salmon,Salmon,Preserved
+0.09888904,0.07237031874000001,0.1261835627,trout,nitrogen,TRUCHA FRESCA,Farmed,Fresh trout,Trout,Fresh
+0.09888904,0.07237031874000001,0.1261835627,trout,nitrogen,TRUCHA AHUMADA,Farmed,Smoked trout,Trout,Preserved
+0.234552923,0.1891213745,0.2857140261,misc marine,nitrogen,DORADA,Farmed,Seabream,Seabream,Fresh
+0.234552923,0.1891213745,0.2857140261,misc marine,nitrogen,LUBINA,Farmed,Seabass,Seabass,Fresh
+0.234552923,0.1891213745,0.2857140261,misc marine,nitrogen,RODABALLO,Farmed,Turbot,Turbot,Fresh
+-0.02427907717,-0.03893650213,-0.009890630347,bivalves,phosphorus,MEJILLON CONGELADO,Farmed,Frozen mussel,Mussel,Frozen
+-0.02427907717,-0.03893650213,-0.009890630347,bivalves,phosphorus,MEJILLON FRESCO,Farmed,Fresh mussel,Mussel,Fresh
+-0.02427907717,-0.03893650213,-0.009890630347,bivalves,phosphorus,MEJILLON CONSERVA,Farmed,Preseved mussel,Mussel,Preserved
+0.02661969116,0.021057159899999997,0.03236542833,salmon,phosphorus,SALMON CONGELADO,Farmed,Frozen salmon,Salmon,Frozen
+0.02661969116,0.021057159899999997,0.03236542833,salmon,phosphorus,SALMON FRESCO,Farmed,Fresh salmon,Salmon,Fresh
+0.02661969116,0.021057159899999997,0.03236542833,salmon,phosphorus,SALMON AHUMADO,Farmed,Smoked salmon,Salmon,Preserved
+0.02321956704,0.01731932387,0.0292137002,trout,phosphorus,TRUCHA FRESCA,Farmed,Fresh trout,Trout,Fresh
+0.02321956704,0.01731932387,0.0292137002,trout,phosphorus,TRUCHA AHUMADA,Farmed,Smoked trout,Trout,Preserved
+0.05017616112,0.03793418269,0.06466790452,misc marine,phosphorus,DORADA,Farmed,Seabream,Seabream,Fresh
+0.05017616112,0.03793418269,0.06466790452,misc marine,phosphorus,LUBINA,Farmed,Seabass,Seabass,Fresh
+0.05017616112,0.03793418269,0.06466790452,misc marine,phosphorus,RODABALLO,Farmed,Turbot,Turbot,Fresh
+17.491326887929997,14.3710447518085,21.09719967089,misc marine,ghg,DORADA IMPORTADA,Farmed,Imported Seabream,Seabream,Fresh
+0.05017616112,0.03793418269,0.06466790452,misc marine,phosphorus,DORADA IMPORTADA,Farmed,Imported Seabream,Seabream,Fresh
+0.234552923,0.1891213745,0.2857140261,misc marine,nitrogen,DORADA IMPORTADA,Farmed,Imported Seabream,Seabream,Fresh
+17.491326887929997,14.3710447518085,21.09719967089,misc marine,ghg,LUBINA IMPORTADA,Farmed,Imported Seabass,Seabass,Fresh
+0.05017616112,0.03793418269,0.06466790452,misc marine,phosphorus,LUBINA IMPORTADA,Farmed,Imported Seabass,Seabass,Fresh
+0.234552923,0.1891213745,0.2857140261,misc marine,nitrogen,LUBINA IMPORTADA,Farmed,Imported Seabass,Seabass,Fresh

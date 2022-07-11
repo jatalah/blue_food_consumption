@@ -1,0 +1,71 @@
+name,Taxa,Phylum,TL,catTL
+ALMEJAS,Veneridae,Mollusca,2.0171428571428573,Low
+ALMEJAS CONGELADO,Veneridae,Mollusca,2.0171428571428573,Low
+"ALMEJAS,BERB.FRESC",Veneridae,Mollusca,2.0171428571428573,Low
+"ALMEJAS,BERBERECHO",Veneridae,Mollusca,2.0171428571428573,Low
+ATUN,Thunnus,Chordata,4.3471428666796,High
+ATUN Y BONITO,Scombridae,Chordata,4.219374998211861,High
+BACALAO,Gadus morhua,Chordata,4.09,High
+BACALAO CONGELADO,Gadus morhua,Chordata,4.09,High
+BACALAO FRESCO,Gadus morhua,Chordata,4.09,High
+BERBEREC.CONGELADO,Cerastoderma,Mollusca,2,Low
+BERBERECHOS,Cerastoderma,Mollusca,2,Low
+CABALLA FRESCA,Scomber,Chordata,3.7875,Medium
+CALAMAR Y PULPO FR,Loligo,Mollusca,4.306666666666667,High
+CALAMARES,Loligo,Mollusca,4.306666666666667,High
+CALAMARES CONGELAD,Loligo,Mollusca,4.306666666666667,High
+"CALAMARES,PULPO",Loligo,Mollusca,4.306666666666667,High
+CHICHARRO/CABALLA,Trachurus picturatus,Chordata,3.32,Medium
+CONS.PESCADO/MOLUSCO,NA,NA,3.5916920910969816,Medium
+GAMBAS/LANG.COCIDO,Penaeidae,Arthropoda,3.1925,Medium
+GAMBAS/LANG.CONG.,Penaeidae,Arthropoda,3.1925,Medium
+GAMBAS/LANG.FRESCO,Penaeidae,Arthropoda,3.1925,Medium
+GAMBAS/LANGOSTINOS,Penaeidae,Arthropoda,3.1925,Medium
+LENGUADO,Soleidae,Chordata,3.44628125,Medium
+LENGUADO CONGELADO,Soleidae,Chordata,3.44628125,Medium
+LENGUADO FRESCO,Soleidae,Chordata,3.44628125,Medium
+MARISCO/MOLUSC COCI,NA,NA,2.956264880952381,Low
+MARISCO/MOLUSC CONG,NA,NA,2.956264880952381,Low
+MARISCO/MOLUSC FRES,NA,NA,2.956264880952381,Low
+MARISCO/MOLUSCO/CRUS,NA,NA,NA,NA
+MEJILLON,Mytilus galloprovincialis,Mollusca,2.69,Low
+MEJILLON CONGELADO,Mytilus galloprovincialis,Mollusca,2.69,Low
+MEJILLON FRESCO,Mytilus galloprovincialis,Mollusca,2.69,Low
+MEJILLONES,Mytilus galloprovincialis,Mollusca,2.69,Low
+MERLUZA/PESCAD,Merluccius,Chordata,4.318333333333333,High
+MERLUZA/PESCAD.CON,Merluccius,Chordata,4.318333333333333,High
+MERLUZA/PESCAD.FRE,Merluccius,Chordata,4.318333333333333,High
+OTRAS CONS.PESCADO,NA,NA,3.5916920910969816,Medium
+OTROS MARISC.COCI.,NA,NA,2.956264880952381,Low
+OTROS MARISC.CONG.,NA,NA,2.956264880952381,Low
+OTROS MARISC.FRES.,NA,NA,2.956264880952381,Low
+OTROS MARISC/MOLUSC,NA,NA,2.956264880952381,Low
+OTROS PESCADOS,NA,NA,3.649375,Medium
+OTROS PESCADOS CON,NA,NA,3.649375,Medium
+OTROS PESCADOS FRE,NA,NA,3.649375,Medium
+PESCADOS,NA,NA,NA,NA
+PESCADOS CONGELADOS,NA,NA,NA,NA
+PESCADOS FRESCOS,NA,NA,NA,NA
+PULPO,Octopus,Mollusca,3.6225,Medium
+PULPO CONGELADO,Octopus,Mollusca,3.6225,Medium
+SALMON,Salmo salar,Chordata,4.5,High
+SALMON CONGELADO,Salmo salar,Chordata,4.5,High
+SALMON FRESCO,Salmo salar,Chordata,4.5,High
+SARDINA/BOQUERON,Sardina pilchardus,Chordata,3.06,Low
+SARDINAS,Sardina pilchardus,Chordata,3.06,Low
+TOTAL CARNE,NA,NA,NA,NA
+TOTAL PESCA,Oncorhynchus mykiss,Chordata,4.08,High
+TRUCHA FRESCA,Oncorhynchus mykiss,Chordata,4.08,High
+ANCHOAS,Engraulis encrasicolus,Chordata,3.12,Low
+DORADA,Sparus aurata,Chordata,3.7,Medium
+LUBINA,Dicentrarchus labrax,Chordata,3.47,Medium
+OTROS AHUMADOS,NA,NA,3.5916920910969816,Medium
+RODABALLO,Scophthalmus maximus,Chordata,4.36,High
+SALMON AHUMADO,Salmo salar,Chordata,4.5,High
+TRUCHA AHUMADA,Oncorhynchus mykiss,Chordata,4.08,High
+RAPE,Lophius,Chordata,4.421428571428572,High
+PESCADO SALADO,NA,NA,4.0607692359044005,High
+BOQUERONES FRESCOS,Engraulis encrasicolus,Chordata,3.12,Low
+SARDINAS FRESCAS,Sardina pilchardus,Chordata,3.06,Low
+BACALADILLA,Micromesistius poutassou,Chordata,4.13,High
+PEZ ESPADA/EMPERADOR,Xiphias gladius,Chordata,4.53,High
