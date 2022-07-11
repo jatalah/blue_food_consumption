@@ -1,4 +1,4 @@
-# Trends in blue food consumption from a sustainability perspective
+# Trends in blue food consumption: a sustainability perspective
 
 <!-- badges: start -->
 
