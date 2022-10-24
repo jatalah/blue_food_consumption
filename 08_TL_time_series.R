@@ -76,6 +76,24 @@ ggsave(
   height = 7
 )
 
+ggsave(
+  plot = tl_trends_plot,
+  filename = 'figures/pdf/figure4.pdf',
+  dpi = 900,
+  width = 6,
+  height = 7
+)
+
+ggsave(
+  plot = tl_trends_plot,
+  filename = 'figures/pdf/figure4.tiff',
+  dpi = 900,
+  bg = 'white',
+  compression = 'lzw',
+  width = 6,
+  height = 7
+)
+
 # seasonal trend --------
 ggplot(ts_decomp, aes(date, season, color = catTL)) +
   geom_line() +

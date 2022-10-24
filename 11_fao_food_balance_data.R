@@ -45,7 +45,7 @@ fb_world <-
 
 
 countries <-
-  ne_countries(returnclass = "sf", scale = 'small') %>% 
+  ne_countries(returnclass = "sf", scale = 'medium') %>% 
   rename(Area = "admin")
 
 fb_world_sf <- 
@@ -59,7 +59,7 @@ ggplot() +
   geom_sf(aes(fill = Value), data = fb_world_sf) +
   # scale_fill_gradientn(colours=grDevices::hcl.colors(11, "Lajolla"), name = "Kg per capita") +
   # scale_fill_gradientn(colours=rev(RColorBrewer::brewer.pal(11, "RdYlBu")), name = "Kg per capita") +
-  theme_void() +
+  theme_void(base_size = 12) +
   labs(caption = "Data source: FAOSTAT"
   ) +
   theme(legend.position = 'bottom',
@@ -89,5 +89,27 @@ ggplot() +
 world_consumption_2019_map
 
 # save map--
-ggsave('figures/world_consumption_2019_map.png', width = 8, height = 4)
+ggsave('figures/world_consumption_2019_map.png',
+       width = 8,
+       height = 4)
+
+ggsave(
+  'figures/pdf/figure1.pdf',
+  width = 85,
+  height = 46.5,
+  units = 'mm',
+  scale = 2
+)
+
+ggsave(
+  'figures/pdf/figure1.tiff',
+  width = 85,
+  height = 46.5,
+  units = 'mm',
+  scale = 2,
+  bg = 'white',
+  compression = "lzw",
+  dpi = 900
+)
+
 

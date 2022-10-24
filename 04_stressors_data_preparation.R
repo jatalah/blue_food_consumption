@@ -8,7 +8,8 @@ blue_food <-
   filter(.width == 0.95) %>% 
   mutate(across(median:.upper, ~.x/1000)) %>% 
   select(-.width) %>%
-  filter(!stressor %in% c("land", "water"))
+  filter(!stressor %in% c("land", "water")) %>% 
+  write_csv('clean_data/stressors_data_clean.csv')
 
 # Read national and imported production data for seabream and seabass compiled from APROMAR reports 2012 -2021 (https://apromar.es/informes-anteriores/). Data for missing years, i.e. 1999-2011 and 2022 was replace with the overall mean proportion for each species------ 
 
@@ -154,6 +155,6 @@ stressor_consumption <-
   summarise(median = sum(st_con, na.rm = T), .groups = 'drop') %>%
   mutate(stressor = str_to_sentence(stressor),
          stressor = fct_recode(stressor, GHG = 'Ghg')) %>%
-  filter(!(str_detect(en_name_gen, c('Turbot|Sea')) & median==0)) %>% 
+  filter(!(str_detect(en_name_gen, c('Turbot|Sea')) & median==0)) %>% # filter data without production for those years
   write_csv('clean_data/stressors_consumption_data.csv')
 

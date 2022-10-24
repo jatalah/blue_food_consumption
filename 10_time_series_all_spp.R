@@ -1,6 +1,7 @@
 library(tidyverse)
 theme_set(theme_minimal())
 rm(list = ls())
+filter <- dplyr::filter
 
 dat_totales <- read_csv('clean_data/datos_consumo_per_capita_totales_factores.csv')
 name_order <- read_csv('clean_data/spp_ranking_by_source.csv')
@@ -30,4 +31,12 @@ ggsave(
   width = 8,
   height = 8,
   dpi = 600
+)
+
+ggsave(
+  plot = ts_spp_type,
+  filename = 'figures/pdf/figureS2.pdf',
+  width = 10,
+  height = 8,
+  dpi = 900
 )
