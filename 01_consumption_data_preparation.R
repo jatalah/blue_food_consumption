@@ -105,11 +105,7 @@ dat_old %>%
   bind_rows(missing_totals) %>% 
   select(-year)
 
-dat_raw %>%
-  mutate(year = str_extract(date, pattern = "(\\d)+")) %>% 
-  filter(region =="T.ESPAÑA") %>% 
-  distinct(region, year) %>% 
-  print(n = Inf) 
+
 
 
 # clean dates and months----------------
@@ -133,6 +129,11 @@ dat_raw <-
          year = str_extract(date, pattern = "(\\d)+"),
          date = as.Date(paste("01", mon, year, sep = '-'), "%d-%m-%y")) 
 
+dat_raw %>%
+  mutate(year = str_extract(date, pattern = "(\\d)+")) %>% 
+  filter(region =="T.ESPAÑA") %>% 
+  distinct(region, year) %>% 
+  print(n = Inf) 
 
 # clean comunidades names-----
 
@@ -177,36 +178,59 @@ dat_raw %>%
 # clean fish names------
 var_names_mat <- read_csv('clean_data/variable_names_matching.csv')
 
-data_clean <- 
-  left_join(data_clean, var_names_mat, by = 'name') %>% 
-  mutate(name = ifelse(is.na(new_name),name, new_name)) %>% 
-  group_by(date, comunidad, var, name) %>% 
-  summarise(value = sum(value, na.rm = T)) %>% 
-  ungroup() %>% 
+data_clean <-
+  left_join(data_clean, var_names_mat, by = 'name') %>%
+  mutate(name = ifelse(is.na(new_name), name, new_name)) %>%
+  group_by(date, comunidad, var, name) %>%
+  summarise(value = sum(value, na.rm = T)) %>%
+  ungroup() %>%
   mutate(name = fct_collapse(name, `SARDINA/BOQUERON` = "SARDINA/BOQUERON FR"))
 
 
-# write_csv(data_clean, 'clean_data/datos_consumo_espana.csv')
+write_csv(data_clean, 'clean_data/datos_consumo_espana.csv')
 
 # summary(data_clean)
-# glimpse(data_clean)
+glimpse(data_clean)
 # distinct(data_clean, name) %>% clipr::write_clip()
 # distinct(data_clean, var) 
 
 # save data and subsets ------------
-# dat_per_capita <- 
-#   data_clean %>% 
-#   filter(var =="CONSUMO X CAPITA") %>%
-#   write_csv('clean_data/datos_consumo_per_capita.csv')
+dat_per_capita <-
+  data_clean %>%
+  filter(var =="CONSUMO X CAPITA") %>%
+  write_csv('clean_data/datos_consumo_per_capita.csv')
 
 # datos totales------
 dat_totales <- 
   dat_per_capita %>% 
-  filter(comunidad =="Total España") %>% 
+  filter(comunidad == "Total España") %>% 
   write_csv('clean_data/datos_consumo_per_capita_totales.csv')
 
 # datos comunitarios ------
-# dat_comu <- 
-#   dat_per_capita %>%
-#   filter(comunidad != "Total España") %>% 
-#   write_csv('clean_data/datos_consumo_per_capita_comunidades.csv')
+dat_comu <-
+  dat_per_capita %>%
+  filter(comunidad != "Total España") %>% 
+  write_csv('clean_data/datos_consumo_per_capita_comunidades.csv')
+
+# Raw data preparation with all variables----
+data_clean <- read_csv('clean_data/datos_consumo_espana.csv') %>% mutate(name = if_else(name == "MEJILLONES", "MEJILLON", name))
+var_def <- read_csv('clean_data/vars_all.csv') %>% relocate(totales, .after = total)
+
+all <- 
+  left_join(data_clean, var_def, by = 'name') %>%
+  mutate(var_type = case_when(totales == 1 ~ "totales",
+                              ambos == 2 ~ "totales",
+                              # ambos == 1 ~ "subtotal",
+                              .default = as.character('individual')), .after = "totales") %>% 
+  select(date,
+         autonomous_community = comunidad,
+         es_name = name,
+         en_name,
+         en_group = en_name_gen,
+         definition_es = definicion,
+         source, 
+         type,
+         var_type:catTL)
+
+
+write_csv(all, 'clean_data/blue_food_raw_data_all_variables.csv')
